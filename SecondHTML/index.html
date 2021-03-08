@@ -1,0 +1,130 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Second HTML</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <span>
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Contact</a>
+            </span>
+            <!-- Using table to achieve the above:
+            <table cellspacing="10">
+                <tr>
+                    <td><a href="#">Home</a></td>
+                    <td><a href="#">About</a></td>
+                    <td><a href="#">Contact</a></td>
+                </tr>
+            </table> -->
+        </nav>
+    </header>
+    <main>
+        <h1>Here is the main section of our page  - it consists of a new articles</h1>
+        <article>
+            <h2>Article 1 - 1995 was a pretty crazy year for programming languages!</h2>
+            <p>Don't believe me? Just check this table out:</p>
+        </article>
+        <table>
+            <thead>
+                <tr>
+                    <th>Language</th>
+                    <th>Designed By</th>
+                    <th colspan="2">First Appeared</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>C++</td>
+                    <td>Bjarne Stroutstrup</td>
+                    <td>1983</td>
+                    <td>2021</td>
+                </tr>
+                <tr>
+                    <td>Python</td>
+                    <td>Guido van Rossum</td>
+                    <td>1991</td>
+                    <td>2022</td>
+                </tr>
+                <tr>
+                    <td>Ruby</td>
+                    <td>Yukihiro Matsumoto (*Matz*)</td>
+                    <td rowspan="4"> 1995</td>
+                    <td>2023</td>
+                </tr>
+                <tr>
+                    <td>JavaScript</td>
+                    <td>Brendan Eich</td>
+                    <td>2024</td>
+                </tr>
+                <tr>
+                    <td>Java</td>
+                    <td>James Gosling</td>
+                    <td>2025</td>
+                </tr>
+                <tr>
+                    <td>PHP</td>
+                    <td>Rasmus Lerdorf</td>
+                    <td>2026</td>
+                </tr>
+            </tbody>
+            <!--<tfoot>
+            </tfoot> -->
+        </table>
+        <article>
+            <h2>Article 2 - Coming soon...</h2>
+            <h3>Contact us!</h3>
+            <h3>General Information</h3>
+        </article>
+        <form>
+            <label for="Name">First Name</label>
+            <input type="text" name="name"/>
+            <br>
+            <label for="Name">Last Name</label>
+            <input type="text" name="name"/>
+            <br>
+            <label for="Email">Email</label>
+            <input type="email" name="email"/>
+            <br>
+            <label for="date">Date of Birth</label>
+            <input type="date" name="date" placeholder="Date"/>
+        </form>
+
+    <h3>Essential Questions</h3>
+    <p>What kind of work do you need?</p>
+    <form>
+        <label for="programming">Programming:</label>
+        <input type="checkbox" name="skills" value="programming"><br>
+        <label for="design">Design:</label>
+        <input type="checkbox" name="skills" value="design"><br>
+        <label for="singing">Singing:</label>
+        <input type="checkbox" name="skills" value="singing"><br>
+        <label for="comedy">Comedy:</label>
+        <input type="checkbox" name="skills" value="comedy"><br>
+    </form>
+    <p>How interested are you in our design skills?</p>
+    <form>
+        <label for="verylow">Very Low</label>
+        <input type="radio" name="skills" value="verylow"><br>
+        <label for="low">Low</label>
+        <input type="radio" name="skills" value="low"><br>
+        <label for="medium">Medium</label>
+        <input type="radio" name="skills" value="medium"><br>
+        <label for="high">High</label>
+        <input type="radio" name="skills" value="high"><br>
+        <label for="veryhigh">Very High</label>
+        <input type="radio" name="skills" value="veryhigh"><br><br>
+        <input type="button" value="Submit me">
+    </form>
+    </main>
+    
+    <footer>
+        <span>Here is our footer - let's make sure we copyright &copy; this</span>
+    
+    </footer>
+</body>
+</html>
